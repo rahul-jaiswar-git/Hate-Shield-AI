@@ -1,0 +1,15 @@
+streamlit
+tensorflow
+transformers
+joblib
+numpy
+Pillow
+pytesseract
+opencv-python
+pydub
+soundfile
+librosa
+SpeechRecognition
+google-api-python-client
+google-cloud-videointelligence
+requests
