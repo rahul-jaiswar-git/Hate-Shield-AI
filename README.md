@@ -15,6 +15,7 @@
 - [Key Features](#key-features)
 - [💻 Prerequisites](#-prerequisites)
 - [🚀 Installation](#-installation)
+- [⬇️ Download the Model](#️-download-the-model)
 - [☕ Usage](#-usage)
 - [🛠️ Technology Stack](#️-technology-stack)
 - [🏗️ File Structure](#️-file-structure)
@@ -40,19 +41,30 @@ Hate speech detection is the process of identifying and classifying content (tex
 
 - Python 3.8+
 - pip
-- Trained model and label encoder files (see below)
 
 ## 🚀 Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/rahul-jaiswar-git/Hate-Shield-AI.git
    cd Hate-Shield-AI
    ```
-2. Install dependencies:
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
+3. **Download the model files:**
+   - Download all model files from the Hugging Face repository:
+     [Hinglish-based-Hate-Speech-detection-model-v1 on Hugging Face](https://huggingface.co/rahuljaiswarofficial/Hinglish-based-Hate-Speech-detection-model-v1)
+   - Place all downloaded files (e.g., `tf_model.h5`, `config.json`, `tokenizer_config.json`, `vocab.txt`, `special_tokens_map.json`, `label_encoder.pkl`) into the `hate_speech_model/` directory.
+
+## ⬇️ Download the Model
+
+You can download the pre-trained model and all required files from Hugging Face:
+
+[https://huggingface.co/rahuljaiswarofficial/Hinglish-based-Hate-Speech-detection-model-v1](https://huggingface.co/rahuljaiswarofficial/Hinglish-based-Hate-Speech-detection-model-v1)
+
+**After downloading, place all files in the `hate_speech_model/` directory before running the app.**
 
 ## ☕ Usage
 
